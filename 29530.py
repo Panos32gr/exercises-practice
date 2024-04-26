@@ -2,7 +2,7 @@ NAME = []
 PRICE = []
 
 
-for i in range(3): # 10
+for i in range(10):
     onoma = raw_input("Onoma grafeiou: ")
     timh = float(input("Timh grafeiou: "))
     while timh <= 0:
