@@ -18,8 +18,8 @@ omadaAB = []
 xronosAB = []
 
 
-for i in range(1,11):
-    if i <= 5:
+for i in range(1,21):
+    if i <= 10:
         name = raw_input("onoma omadas: ")
         time = float(input("Xronos se deuterolepta: "))
         while time < 0:
@@ -73,6 +73,6 @@ print resultsAB
 print resultsTimesAB
 
 print "Oi 10 omades me tous kaluterous xronous einai:"
-for i in range(3):
+for i in range(10):
     print resultsAB[i], "me xrono: ", resultsTimesAB[i]
     
